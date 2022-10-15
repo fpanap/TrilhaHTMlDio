@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#lo-lu">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>O primeiro computador foi criado entre 1943 e 1946 e se chamava Eletronic Numerical Integrator and Computer — ENIAC.
+
+      Para o seu desenvolvimento, foi investido cerca de 6 milhões de dólares e seu funcionamento dependia de uma série de fatores, como 200 mil watts de energia.
+      
+      Um fator de grande importância é a memória, algo que não tinha na época do ENIAC. Cerca de 10 anos depois, foi lançado o RAMAX 305, uma máquina de armazenamento em disco feito pela IBM.
+      
+      No começo, só empresas e certas instituições faziam uso de um computador e, com o passar do tempo, essa tecnologia seria acessada por todos.
+    <p>Quer se aprofundar mais sobre o assunto <a href="https://www.portalsaofrancisco.com.br/historia-geral/historia-do-computador">Clique aqui</a></p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>A expressão de cliente-servidor é utilizada no âmbito da informática. Nesse contexto, chama-se cliente ao dispositivo que exige determinados serviços a um servidor. A ideia de servidor, entretanto, refere-se ao equipamento que presta serviços aos computadores conectados a ele através de uma rede.
+
+      O conceito de cliente-servidor, refere-se, portanto, a um modelo de comunicação que vincula vários dispositivos informáticos através de uma rede. O cliente, nesse contexto, faz solicitações de serviços ao servidor, responsável por atender a esses requisitos.
+      
+      Com essa arquitetura, as tarefas são distribuídas entre os servidores (que fornecem os serviços) e os clientes (que exigem esses serviços). Por outras palavras: o cliente solicita ao servidor um recurso, que fornece uma resposta.
+      
+      Este tipo de modelo permite distribuir a capacidade de processamento. O servidor pode ser executado em mais de um equipamento e ser mais de um programa. De acordo com os serviços que presta, pode ser chamado de servidor web, servidor de correio ou outro.
+      
+      Em redes estruturadas com o modelo cliente-servidor, os clientes centralizam diferentes aplicações e recursos no servidor. O servidor, por sua vez, garante que esses recursos estão disponíveis sempre que um cliente os exigir.
+      
+      É importante mencionar que grande parte dos serviços da Internet obedece à arquitetura cliente-servidor. O servidor da web disponibiliza para o cliente os sites, que o cliente acessa através de seu navegador. Dessa forma, o servidor hospeda os dados que o cliente solicita através do navegador instalado em seu computador.</p>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Um servidor é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação, softwares e, ocasionalmente, algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD.
+
+      O termo servidor também define um recurso dentro de um sistema computacional maior, capaz de processar aplicações, prestar serviços e armazenar dados. Esses sistemas podem ser físicos ou virtuais, estarem instalados local ou remotamente. Normalmente, são escaláveis e possuem alto poder de processamento.
+      
+      Capazes de executar um conjunto específico de programas ou protocolos para fornecer serviços para outras máquinas ou clientes, servidores são equipamentos dedicados a executar aplicações e serviços dentro de uma rede LAN ou WAN.</p>
+      <p>Quer se aprofundar mais sobre o assunto <a href="https://www.controle.net/faq/o-que-sao-servidores"> <i> Clique aqui</i></a></p>
+
+
+    <h2 id="html">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Um documento HTML começa com a tag HTML e termina com a marca /HTML. Ele também contém um cabeçalho que descreve o título da página e um corpo no qual se encontra o conteúdo da página. O cabeçalho é delimitado pelas tags HEAD e /HEAD. Já o corpo é delimitado pelas tags BODY e /BODY.
+      <br>
+
+      Veja o exemplo de uma página HTML simples:<pre><b data-insertor-excluded="1">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"&gt;</b> <br data-insertor-excluded="1">&lt;HTML&gt; <br data-insertor-excluded="1"> &lt;HEAD&gt;...&lt;/HEAD&gt; <br data-insertor-excluded="1"> &lt;BODY&gt;Conteúdo da página&lt;/BODY&gt; <br data-insertor-excluded="1">&lt;/HTML&gt;</pre></p>
+
+    <h2 id="lo-lu">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><h2>Listas não ordenadas</h2>
+      <p>As<strong> listas não numeradas </strong>são usadas para listar itens, sem se preocupar com sua sequência. Chamamos de lista de marcadores apenas.</p>
+      <p>As tags usadas para criar uma lista não ordenada são &lt;ul&gt; e &lt;li&gt;. A tag &lt;ul&gt; é usada para definir a lista e a tag &lt;li&gt; é usada para cada item da lista.</p>
+      <pre>&nbsp;&nbsp;&nbsp; &lt;ul&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Internet Explorer&lt;/li&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Opera&lt;/li&gt;</pre><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Firefox&lt;/li&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Safari&lt;/li&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp; &lt;/ul&gt;</pre>
+      <p><strong>Em que situação as listas não ordenadas são usadas?</strong></p>
+      <p>É o tipo mais comum no HTML portanto ela tem uma aplicação bastante ampla. Um dos casos clássicos de uso de lista não ordenada e para construção de menu de navegação desses que fica na parte superior dos sites ou na parte lateral. Normalmente utiliza-se a lista e faz a formatação dela em CSS e interação em Javascript para dar animação o menu, quando necessário.</p>
+      <p>Outra aplicação comum é no meio do texto quando você precisa relacionar uma lista de itens sem necessariamente se importar com a ordem delas. É bastante comum também esse tipo de aplicação e você vai encontrar diversos textos na internet.</p>
+      <h2>Listas ordenadas ou numerada</h2>
+      <p>As <strong>listas ordenadas</strong> ou numeradas são usadas para indicar alguma sequência ou numeração</p>
+      <p>As tags usadas para criar uma lista não ordenada são &lt;ol&gt; e &lt;li&gt;. A tag &lt;ol&gt; é usada para definir a lista e a tag &lt;li&gt; é usada para cada item da lista.</p>
+      <pre>&nbsp;&nbsp;&nbsp; &lt;ol&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;São Paulo&lt;/li&gt;</pre><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;São Paulo&lt;/li&gt;</pre><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Belo Horizonte&lt;/li&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Brasília&lt;/li&gt;</pre>
+      <pre>&nbsp;&nbsp;&nbsp; &lt;/ol&gt;</pre>
+      <p><strong>Quando a lista ordenada é mais usada?</strong></p>
+      <p>A lista ordenada ela já tem um propósito um pouco mais específico que a colocar os itens da lista numa determinada ordem portanto ela é de uso mais limitado, mas ainda assim você vai encontrar em diversos textos quando há necessidade de fazer uma relação de itens nesse e neste caso a posição de cada item na lista é importante, portanto usa-se a lista ordenada.</p></p>
+
+    <h2 id="referencias">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <ul>
+        <li><a href="http://dio.me">Dio</a></li>
+        <li><a href="http://w3c.org">w3c</a></li>
+        <li><a href="https://www.portalsaofrancisco.com.br/historia-geral/historia-do-computador">Portal São Francisco</a></li>
+        <li><a href="https://www.luis.blog.br/listas-ordenadas-nao-ordenadas-e-de-definicao.html">Listas no html</a></li>
+    </ul>
+
+</body>
+</html>
